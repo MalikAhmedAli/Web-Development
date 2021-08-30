@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        .table1{
+            margin: 0 auto;
+        }
+        table,tr,th,td{
+            
+            border: 20px solid rgb(240, 232, 232);
+            border-collapse: collapse;
+            margin: 30px;
+            padding: 10px;
+            border-spacing: 5px;
+            
+        }
+
+        th{
+            color: rgb(247, 42, 6);
+            background-color: black;
+            font-weight: 700;
+            font-style: italic;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        td{
+            background-color: turquoise;
+            font-weight: 900;
+        }
+
+        tfoot{
+            text-decoration: double underline overline rgb(107, 233, 4);
+        }
+
+        h2{
+            text-align: center;
+            font-weight: 900;
+            color: rgb(12, 1, 1);
+            font-size: 30px;
+            text-decoration: dashed underline rgb(247, 42, 6);
+        }
+
+        @media screen and(orientation: landscape) and (min-width: 500px) {
+                
+            table{
+                background-color: chartreuse;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>--Annual Result--</h2>
+    <table class = " table1"> 
+        <thead>
+        <th>Subject</th>
+        <th>Marks</th>
+        <th>Practical</th>
+        <th>Grade</th>
+        
+    </thead>
+    <tbody>
+        <tr>
+            <th>English</th>
+            <td>75</td>
+            <td>-</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <th>Maths</th>
+            <td>95</td>
+            <td>-</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <th>Chemistry</th>
+            <td>65</td>
+            <td>B+</td>
+            <td>C+</td>
+        </tr>
+        <tr>
+            <th>Physics</th>
+            <td>85</td>
+            <td>A</td>
+            <td>A+</td>
+        </tr>
+    </tbody>
+    <tfoot>    
+        <tr>
+                <th colspan="4">Result::Pass</th>
+                
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
