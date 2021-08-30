@@ -1,0 +1,66 @@
+h1{
+    color: rgb(209, 13, 209);
+    text-align: center;
+    background-color: rgb(9, 230, 163);
+    font-style: italic;
+    text-transform: lowercase red;
+    text-decoration: overline rgb(85, 11, 223);
+
+}
+
+h2{
+    color: rgba(209, 59, 13, 0.932);
+}
+
+h3{
+    color: rgba(19, 33, 224, 0.986);
+}
+
+h4{
+    color: rgba(101, 209, 13, 0.932);
+}
+
+h5{
+    color: rgba(9, 222, 230, 0.993);
+}
+
+h6{
+    color: rgb(37, 11, 3);
+}
+
+p{
+    color: rgb(218, 14, 92);
+    font-weight: 700;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(235, 231, 8);
+    
+}
+
+table{
+    background-color: rgba(65, 226, 17, 0.329);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+thead{
+    color: rgb(235, 43, 9);
+}
+
+
+a:hover{
+    color: rgb(235, 16, 8);
+}
+
+ul{
+    color: rgb(12, 8, 223);
+    font-weight: 700;
+    font-style: italic;
+    background-color: rgb(165, 138, 157);
+}
+
+ol{
+    color: rgb(233, 113, 8);
+    background-color: teal;
+    font-weight: 900;
+}
+
